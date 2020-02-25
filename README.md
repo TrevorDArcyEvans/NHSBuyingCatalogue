@@ -145,6 +145,7 @@ The overall architecture is a classic 3-tier application ie:
 
   "Log":
   {
+    "ConnectionString": "Data Source=|DataDirectory|Data/NHSD.GPITF.BuyingCatalog.sqlite3;",
     "CRM": true,
     "SharePoint": true,
     "BearerAuth": true
@@ -155,14 +156,14 @@ The overall architecture is a classic 3-tier application ie:
     "Host": "localhost"
   },
 
-  "Datastore":
+  "RepositoryDatabase":
   {
     "Connection": "SqLite",
 
     "SqLite":
     {
       "Type": "SqLite",
-      "ConnectionString": "Data Source=|DataDirectory|Data/BuyingCatalog.sqlite3;"
+      "ConnectionString": "Data Source=|DataDirectory|Data/NHSD.GPITF.BuyingCatalog.sqlite3;"
     },
 
     "SqlServer":

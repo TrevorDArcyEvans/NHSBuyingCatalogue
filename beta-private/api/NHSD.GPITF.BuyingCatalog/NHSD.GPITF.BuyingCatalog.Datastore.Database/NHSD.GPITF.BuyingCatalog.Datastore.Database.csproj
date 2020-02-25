@@ -47,4 +47,10 @@
     <ProjectReference Include="..\NHSD.GPITF.BuyingCatalog\NHSD.GPITF.BuyingCatalog.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Data\NHSD.GPITF.BuyingCatalog.sqlite3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -220,6 +220,7 @@ NHSD.GPITF.BuyingCatalog/NHSD.GPITF.BuyingCatalog/Logs
 *.sqlite3
 !NHSD.GPITF.BuyingCatalog/NHSD.GPITF.BuyingCatalog.Meta
 NHSD.GPITF.BuyingCatalog/NHSD.GPITF.BuyingCatalog/Properties/launchSettings.json
+!/NHSD.GPITF.BuyingCatalog/NHSD.GPITF.BuyingCatalog.Datastore.Database/Data/NHSD.GPITF.BuyingCatalog.sqlite3
 
 Documentation/
 .scannerwork
