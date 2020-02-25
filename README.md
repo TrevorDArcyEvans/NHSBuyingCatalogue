@@ -82,6 +82,7 @@ The overall architecture is a classic 3-tier application ie:
    * environment variables
 
 <details>
+  <Summary>Description</Summary>
 
  | Setting                                          | Environment Variable                      | Description
  |:-------------------------------------------------|:------------------------------------------|:--------------------------------------
@@ -128,7 +129,11 @@ The overall architecture is a classic 3-tier application ie:
  | Log:BearerAuth                                   | LOG_BEARERAUTH                            | whether or not to log communications with _OAuth_ provider eg false
  | <hr>                                             | <hr>                                      | <hr> 
  | Cache:Host                                       | CACHE_HOST                                | .NET connection string to _Redis_ instance
- 
+
+</details>
+
+<details>
+  <Summary>Sample <i>hosting.json</i></Summary>
 
  ```json
 {
